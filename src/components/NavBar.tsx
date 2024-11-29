@@ -63,7 +63,7 @@ const NavBar: React.FC<{
 
             {/* Overlay and Mobile Menu */}
             {menuOpen && (
-                <div className="fixed inset-0 z-40 flex">
+                <div className="fixed inset-0 z-40 flex h-full">
                     {/* Overlay (Left Side) */}
                     <div
                         className="absolute inset-0 bg-white/30 backdrop-blur-sm"
