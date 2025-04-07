@@ -1,21 +1,14 @@
-import React from 'react';
-import Hero from '@/components/Hero';
-import Caracteristicas from '@/components/Caracteristicas';
-import EntornosAdaptables from '@/components/EntornosAdaptables';
-import Servicios from '@/components/Servicios';
-import MisionVision from '@/components/MisionVision';
-import Footer from '@/components/Footer';
+import React from "react";
+import Hero from "@/components/Hero";
+import TarjetaSection from "@/sections/TarjetaSection";
+import TestimonialsSection from "@/sections/TestimonialsSection";
 
 const Page = () => {
   return (
-    <div>
-      {/* Barra de Progreso */}
+    <div className="bg-background min-h-screen flex flex-col ">
       <Hero />
-      {/* <Caracteristicas />
-      <EntornosAdaptables />
-      <Servicios />
-      <MisionVision />
-      <Footer /> */}
+      {/* <TarjetaSection /> */}
+      <TestimonialsSection />
     </div>
   );
 };

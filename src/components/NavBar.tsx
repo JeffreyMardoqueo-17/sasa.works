@@ -44,12 +44,12 @@ const NavBar: React.FC<{
                         </a>
                     ))}
                     {/* Theme Toggle Button */}
-                    <button
+                    {/* <button
                         onClick={toggleTheme}
                         className="p-2 rounded-full bg-gray-200/80 dark:bg-gray-700/80 text-gray-700 dark:text-gray-200 hover:scale-110 transition-transform"
                     >
                         {isDarkMode ? <FaSun size={18} /> : <FaMoon size={18} />}
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Mobile Menu Toggle */}
@@ -87,12 +87,12 @@ const NavBar: React.FC<{
                                 </a>
                             ))}
                             {/* Theme Toggle Button */}
-                            <button
+                            {/* <button
                                 onClick={toggleTheme}
                                 className="p-2 rounded-full bg-gray-200/80 dark:bg-gray-700/80 text-gray-700 dark:text-gray-200 hover:scale-110 transition-transform"
                             >
                                 {isDarkMode ? <FaSun size={18} /> : <FaMoon size={18} />}
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

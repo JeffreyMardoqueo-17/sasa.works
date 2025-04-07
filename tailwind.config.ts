@@ -56,15 +56,6 @@ const config: Config = {
           active: "#e6b1a8",   // Borde activo
           dark: "#4b302d",     // Borde en modo oscuro
         },
-
-        // Modo oscuro específico
-        dark: {
-          background: "#2b1a18",    // Fondo principal en modo oscuro
-          surface: "#3a2a28",       // Superficie en modo oscuro
-          hover: "#4d3734",         // Hover en modo oscuro
-          border: "#5a403d",        // Bordes en modo oscuro
-          text: "#ffcdb5",          // Texto en modo oscuro
-        },
       },
       // Otras extensiones del tema
       borderRadius: {
